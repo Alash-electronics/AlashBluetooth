@@ -28,7 +28,7 @@ void setup() {
 
   // PIN: у HC-06 ровно 4 цифры, у HM-10 ровно 6 цифр, у HC-05 любое число
   const char *pin = "1234";
-  if (bluetooth.moduleName() && bluetooth.module() == AlashBluetooth::HM10) pin = "123456";
+  if (bluetooth.module() == AlashBluetooth::HM10) pin = "123456";
   if (bluetooth.setPin(pin)) Serial.println("PIN установлен");
   else Serial.println(bluetooth.errorText());
 

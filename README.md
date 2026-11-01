@@ -164,7 +164,7 @@ TX and RX are connected **crossed**: module TX to board RX. The module RX is 3.3
 
 ### How it differs from other libraries
 We looked at course SoftwareSerial examples and assorted HC-05 / HC-06 helpers:
-- They are AT terminals: you type the commands, and the HC-06 takes none Enter, the HC-05 needs Enter and the HM-10 has its own. Students get lost. We have `setName()` for all three.
+- They are AT terminals: you type the commands, and the HC-06 takes no Enter, the HC-05 needs Enter and the HM-10 has its own. Students get lost. We have `setName()` for all three.
 - They do not find the baud rate: you must know the HC-05 uses 38400 in AT mode. We scan.
 - No parsing of phone commands; we have `readLine()` and `parseCommand()`.
 
