@@ -1,6 +1,12 @@
-// AlashBluetooth: настройка модуля одной командой: имя в списке Bluetooth на телефоне, PIN и скорость.
-// Не нужно помнить, что HC-06 принимает AT без Enter, а HC-05 с Enter, и чем отличаются команды: библиотека знает.
-// Модуль должен быть в режиме AT (см. пример Detect) и не подключён к телефону.
+// [ru] AlashBluetooth: настройка модуля одной командой: имя в списке Bluetooth на телефоне, PIN и скорость.
+//      Не нужно помнить, что HC-06 принимает AT без Enter, а HC-05 с Enter, и чем отличаются команды: библиотека знает.
+//      Модуль должен быть в режиме AT (см. пример Detect) и не подключён к телефону.
+// [kk] AlashBluetooth: модульді бір командамен баптау: телефондағы Bluetooth тізіміндегі аты, PIN және жылдамдық.
+//      HC-06 AT-ны Enter-сіз, HC-05 Enter-мен қабылдайтынын және командалардың айырмашылығын есте сақтаудың керегі жоқ: кітапхана біледі.
+//      Модуль AT режимінде болуы (Detect мысалын қараңыз) және телефонға қосылмаған болуы керек.
+// [en] AlashBluetooth: set up the module with one command: the name in the phone's Bluetooth list, the PIN and the speed.
+//      You do not need to remember that HC-06 takes AT without Enter and HC-05 with Enter, or how the commands differ: the library knows.
+//      The module must be in AT mode (see the Detect example) and not connected to a phone.
 #include <AlashBluetooth.h>
 #if defined(ESP32)
 #define BT Serial2                         // ESP32: аппаратный порт Serial2, RX = GPIO16, TX = GPIO17

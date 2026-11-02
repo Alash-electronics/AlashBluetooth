@@ -1,6 +1,6 @@
 {
   "name": "AlashBluetooth",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Easy HC-05/HC-06/HM-10 Bluetooth setup: auto-detect module and baud, name, PIN, speed, phone commands, clear tips (ru/kk/en)",
   "keywords": "Bluetooth, HC-05, HC-06, HM-10, AT commands, serial, baud rate, BLE, phone control",
   "repository": {
